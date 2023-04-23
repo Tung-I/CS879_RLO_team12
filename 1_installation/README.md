@@ -33,6 +33,9 @@ Once your computer has booted from the USB drive, you will be presented with the
 #### Disk Partition
 
 In the Linux system, every device is treated as a file. For example, the file name for a hard disk with a SATA interface is `/dev/sd[a-d]`, where the letter inside the brackets can be any of a, b, c, or d. 
+
+![Partition](images/disk_partition.png)
+
 > Note: When selecting the partitioning option, please "confirm" that the hard disk you choose is new or you no longer need the data on that hard disk. This is because Linux will automatically delete all the existing data on it.
 
 
@@ -56,6 +59,14 @@ Device          Type    Mount Point    Size
 
 You can also refer to other step-by-step partitioning tutorials to design your own partition:
 - https://averagelinuxuser.com/linux-partitioning-recommendations/
+
+
+After setting and confirming all the configurations, including the time zone, user name/password, and disk partition, the Ubuntu installer will start installing the OS into your hard disk, which could take a few minutes to finish. Afterwards, you should see the Ubuntu GUI showing up on your screen, and that means you've install your Ubuntu sucessfully. 
+
+![Finish](images/finish_installation.png)
+
+It's also possible to change your disk partion setting afterwards, but it could be more tricky and complicated. See the following tutorial if you are interested how it works:
+- https://www.psychocats.net/ubuntu/separatehome
 
 
 
