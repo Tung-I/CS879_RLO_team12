@@ -2,9 +2,9 @@
 
 A **command line** or **terminal**, is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text. Within a terminal you have what is known as a **shell**. This is a part of the operating system that defines how the terminal will behave and looks after running (or executing) commands for you. There are various shells available but the most common one is called **bash**, which stands for Bourne again shell.
 
-### Vim
+### Text Editor
 
-Vim is a powerful and flexible text editor that is widely used by programmers and system administrators to edit code and text files. To use Vim, one can simply type the command, `vim your_text_file.txt`, on your terminal. In most cases, you might be able to open a file with GUI and edit it directly. However, many individual software's editing interfaces will actively call Vim. That's why we should know about how to use it before delving into the other topics. Briefly speaking, Vim has two modes:
+There are numerous text editors available in Linux, and let's take `Vim` as an example here. Vim is a powerful and flexible text editor that is widely used by programmers and system administrators to edit code and text files. To use Vim, one can simply type the command, `vim your_text_file.txt`, on your terminal. In most cases, you might be able to open a file with GUI and edit it directly. However, many individual software's editing interfaces will actively call Vim. That's why we should know about how to use it before delving into the other topics. Briefly speaking, Vim has two modes:
 
 * `command mode`: where you can execute commands like undo, redo, find and replace, quit, etc..
 * `insert mode`: where you can type text in the file.
@@ -21,11 +21,16 @@ Vim also provides some advanced features including syntax highlighting, automati
 One of the most common mistake made by a first-time Linux user could be dumping everything directly at the base of their home directory. Develop the habit of organising your stuff into an elegant file structure is something you will thank yourself for years to come.
 
 #### Creating and removing
-First of all, one can use the `ls` command to list the files and directories in the current working directory. If you would like create a folder to mange your files, then the command you need is called `mkdir`, which is short for Make Directory:
+First of all, one can use the `ls` command to list the files and directories in the current working directory. If you would like create a new folder or file, then the command you may need is called `mkdir` (short for Make Directory) and `touch`.
 ```sh
+# List the folders and files in the working directory
+ls
+# Create a new folder
 mkdir [options] <name_of_your_dir>
+# Create a new file
+touch <name of your file>
 ```
-The options such as `-p` and `-v` tell mkdir to make parent directories as needed  tell us what it is doing. Similary, there is a `rm` command available for removing a file or a directory. It is also worth mentioning that one can append a `--help` option following your command to see its usage in detail.
+The options of `mkdir` include `-p` and `-v`, which tell `mkdir` to make parent directories as needed  tell us what it is doing. Similary, there is a `rm` command available for removing a file or a directory. It is also worth mentioning that one can append a `--help` option following your command to see its usage in detail.
 ```sh
 mkdir --help
 
@@ -107,8 +112,25 @@ Many processes can be running at the same time. To see what is currrently runnin
 ```sh
  ps aux | grep [keyword-of-process]
 ```
-Aftering figuring out the PID of the process, we can end that running process manually by using the `kill` command. For example, if one of my Python processes is dead and become unresponsive, I can use `ps aux | grep python` to find the PID first and then kill it by the `kill -9` command.
+Aftering figuring out the PID of the process, we can end that running process manually by using the `kill` command. For example, if one of your Python processes crashes and become unresponsive, you can first use `ps aux | grep python` to find the PID and then kill it by the `kill -9` command.
+```sh
+# Find the PID
+ps aux | grep python
+
+root        1167  0.0  0.0  48356 20672 ?        Ss   08:50   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        1267  0.0  0.1 141568 37248 ?        Ssl  08:50   0:00 /usr/bin/python3 /usr/sbin/firewalld --nofork --nopid
+root        1379  0.0  0.0 126676 22576 ?        Ssl  08:50   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+user      20639  0.9  0.1 836064 63412 ?        Sl   16:09   0:01 /usr/bin/python3 /usr/bin/x-terminal-emulator
+user      21241  2.6  0.0 192652 25548 pts/1    Sl+  16:11   0:00 python order.py --config_path ../config.yaml --id 3
+user      21245  0.0  0.0  17672  2624 pts/2    S+   16:11   0:00 grep --color=auto python
+```
+
+```sh
+# End that process
+kill -9 21241
+```
 
 
-![Kill Process](images/kill_process.png)
+
+
 
