@@ -94,3 +94,7 @@ crontab -e
 30 2 * * * /path/to/backup_script.sh
 ```
 This line tells Cron to run the backup_script.sh script at 2:30am every day. The * characters represent wildcards for the day of the week and the month, meaning that the script will run every day of every month.
+
+### Summary
+In this chapter, we provide a simple tutorial to how a bash script works and how to write your own scripts to run a series of commands in a single line. To expert in bash scripting, one can refer to the following tutorial for more details:
+- https://linuxconfig.org/bash-scripting-tutorial

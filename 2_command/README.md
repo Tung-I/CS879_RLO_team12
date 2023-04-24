@@ -1,4 +1,4 @@
-# The Command Line
+# The Command Line Interface
 
 A **command line** or **terminal**, is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text. Within a terminal you have what is known as a **shell**. This is a part of the operating system that defines how the terminal will behave and looks after running (or executing) commands for you. There are various shells available but the most common one is called **bash**, which stands for Bourne again shell.
 
@@ -130,6 +130,10 @@ user      21245  0.0  0.0  17672  2624 pts/2    S+   16:11   0:00 grep --color=a
 kill -9 21241
 ```
 
+### Summary
+In this chapter, we introduce one of the most widely-used text editors in Linux, and provide an overview of file and process management using command lines. For those who are interested in a more complete tutorial, the following link may be of some help:
+- https://ryanstutorials.net/linuxtutorial/
+- https://www.digitalocean.com/community/tutorials/process-management-in-linux
 
 
 
