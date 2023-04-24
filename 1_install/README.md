@@ -1,4 +1,4 @@
-# Install Ubuntu desktop
+# Install Ubuntu Desktop
 
 Linux is completely free and there are many good distros out there. Among the distributions, Ubuntu is a specific implementation of Linux that includes a wide range of pre-installed software packages and tools that make it a complete operating system. One of the main advantages of using Ubuntu over other Linux distributions is its focus on ease of use and user-friendliness.
 

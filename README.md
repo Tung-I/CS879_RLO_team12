@@ -30,12 +30,12 @@ If you've come here just to learn about a specific topic then feel free to just 
 
 ## References
 
-https://itsfoss.com/install-ubuntu/
-https://askubuntu.com/questions/21719/how-large-should-i-make-root-home-and-swap-partitions
-https://ryanstutorials.net/linuxtutorial/
-https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/
-https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
-https://linuxhint.com/install-anaconda-ubuntu-22-04/
-https://stackoverflow.com/questions/35246386/conda-command-not-found
-https://linuxconfig.org/bash-scripting-tutorial
+- https://itsfoss.com/install-ubuntu/
+- https://askubuntu.com/questions/21719/how-large-should-i-make-root-home-and-swap-partitions
+- https://ryanstutorials.net/linuxtutorial/
+- https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/
+- https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+- https://linuxhint.com/install-anaconda-ubuntu-22-04/
+- https://stackoverflow.com/questions/35246386/conda-command-not-found
+- https://linuxconfig.org/bash-scripting-tutorial
 
