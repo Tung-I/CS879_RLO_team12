@@ -1,6 +1,7 @@
 # Reusable Learning Object (RLO)
 
 **Team 12**: Tung-I Chen, Uma Pal, Alexandra Burushkina
+
 **Target**: CS 325 Intro-to-HCI
 
 As students in CS 325 would be required to build an application using modern machine learning techniques, this tutorial provides a comprehensive foundation in Linux, Python development, and app development that will be highly relevant to their final project. The skills and tools covered in this tutorial, such as installing Nvidia driver and CUDA, using Jupyter Notebooks, and leveraging Google Appsheet, will enable students to build powerful and effective applications that analyze and interpret human-computer interactions. This tutorial will provide students with a solid foundation in modern computing and machine learning techniques, which they can leverage in their HCI projects to develop cutting-edge applications that meet the needs of end-users.
