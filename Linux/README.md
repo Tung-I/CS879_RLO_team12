@@ -24,7 +24,7 @@ The tutorial is divided into the following sections:
 - Chapter 1: Install Ubuntu desktop
 - Chapter 2: The Command Line Interface
 - Chapter 3: Bash Script
-- Chapter 4: Environment Setup
+- Chapter 4: Environment Setup for GPU-driven Applications
 
 If you've come here just to learn about a specific topic then feel free to just go straight to that one.
 
@@ -40,4 +40,5 @@ If you've come here just to learn about a specific topic then feel free to just 
 - https://linuxhint.com/install-anaconda-ubuntu-22-04/
 - https://stackoverflow.com/questions/35246386/conda-command-not-found
 - https://linuxconfig.org/bash-scripting-tutorial
+- https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/
 
